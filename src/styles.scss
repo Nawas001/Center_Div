@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #FFFFFF;
+    --alternative: #EE2A35;
+}
+.heading{
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.sub-heading{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--primary-color);
+}
