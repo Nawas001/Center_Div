@@ -310,8 +310,15 @@
 //     background: rgba(0, 0, 0, 0.2);
 // }
 
-.product-icons {
-    padding: 10px;
-    transition: 1s;
-    font-size: 20px;
+.product-icon-container {
+    display: block;
+    /* Set display to block to stack elements vertically */
+}
+
+.product-icon {
+    /* Optional styling for your icons */
+    display: block;
+    /* Ensure each icon takes up the full width */
+    margin-bottom: 10px;
+    /* Add spacing between icons if desired */
 }
